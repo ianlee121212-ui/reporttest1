@@ -4,8 +4,8 @@ import time
 
 # [필수 1] 첫 화면: 학번 및 이름 표시
 st.set_page_config(page_title="중간고사 대체 과제", layout="centered")
-st.title("🎓 Streamlit 퀴즈 애플리케이션")
-st.info("학번: 202412345 / 이름: 홍길동")
+st.title("퀴즈 앱")
+st.info("학번: 2024404088 / 이름: 이찬혁")
 
 # [필수 2] 캐싱 기능 구현
 # 퀴즈 데이터를 불러오거나 무거운 계산을 할 때 사용합니다.
@@ -29,7 +29,7 @@ if 'score' not in st.session_state:
 
 # [필수 3] 로그인 기능
 if not st.session_state.logged_in:
-    st.header("🔐 로그인")
+    st.header("로그인")
     user_id = st.text_input("아이디 (힌트: user)")
     user_pw = st.text_input("비밀번호 (힌트: 1234)", type="password")
     
