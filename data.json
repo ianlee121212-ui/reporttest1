@@ -1,7 +1,10 @@
 
 [
-    {"question": "Streamlit is based on Python.", "dap": "O"},
-    {"question": "Caching makes the app slower.", "dap": "X"},
-    {"question": "The decorator for caching is @st.cache_data.", "dap": "O"},
-    {"question": "You must deploy the app to run it locally.", "dap": "X"}
+    {"question": "숫자는 다섯자리 이하다", "dap": "X"},
+    {"question": "숫자는 여섯자리 초과다", "dap": "X"},
+    {"question": "3과 2는 사이에 8을 끼고 있다.", "dap": "O"},
+    {"question": "8과 1은 사이에 9를 끼고 있다.", "dap": "O"},
+    {"question": "3은 8 뒤에 오지 않는다.", "dap": "X"}
+    {"question": "숫자가 12983이 아니면 무엇인가?", "dap": "19283"}
+    
 ]
