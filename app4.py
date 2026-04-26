@@ -25,14 +25,16 @@ if 'step' not in st.session_state:
 if 'score' not in st.session_state:
     st.session_state.score = 0
 
+
+
 # [필수 3] 로그인 기능
 if not st.session_state.login:
     st.header('로그인 인증')
     col1, col2 = st.columns(2)
     with col1:
-        id = st.text_input('아이디', value='user')
+        id = st.text_input('아이디 (힌트: user)', value='user')
     with col2:
-        pw = st.text_input('비밀번호', type='password', value='1234')
+        pw = st.text_input('비밀번호  (힌트: 1234)', type='password', value='1234')
 
     if st.button('로그인 하기'):
         if id == 'user' and pw == '1234':
