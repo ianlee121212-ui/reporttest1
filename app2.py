@@ -4,10 +4,10 @@ import json
 import pandas as pd
 
 # [필수 1] 첫 화면 및 페이지 설정
-st.set_page_config(page_title="2024404088 이찬혁 과제", page_icon="🎓", layout="centered")
+st.set_page_config(page_title="2024404088 이찬혁 과제", layout="centered")
 
 # 사이드바에 학번/이름 상시 표시 (평가 기준 충족)
-st.sidebar.title("👨‍💻 제출자 정보")
+st.sidebar.title("제출자 정보")
 st.sidebar.info("학번: 2024404088\n\n이름: 이찬혁")
 
 # [필수 2] 캐싱 기능 (JSON 데이터 로드)
