@@ -1,1 +1,7 @@
 
+[
+    {"question": "Streamlit is based on Python.", "answer": "O"},
+    {"question": "Caching makes the app slower.", "answer": "X"},
+    {"question": "The decorator for caching is @st.cache_data.", "answer": "O"},
+    {"question": "You must deploy the app to run it locally.", "answer": "X"}
+]
