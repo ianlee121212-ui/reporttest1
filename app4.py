@@ -70,7 +70,6 @@ else:
 
     except IndexError:
         # 더 이상 가져올 데이터(인덱스)가 없으면 결과 화면 표시
-        st.balloons()
         st.header('퀴즈가 모두 끝났습니다!')
           
         final = st.session_state.score
