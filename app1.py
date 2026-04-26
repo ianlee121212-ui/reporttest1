@@ -13,7 +13,7 @@ def load_quiz_data():
     # 파일 읽기 지연을 시뮬레이션하기 위해 2초 대기
     time.sleep(2) 
     try:
-        with open('quiz_data.json', 'r', encoding='utf-8') as f:
+        with open('data.json', 'r', encoding='utf-8') as f:
             data = json.load(f)
         return data
     except FileNotFoundError:
