@@ -29,14 +29,14 @@ if 'score' not in st.session_state:
 
 # [필수 3] 로그인 기능
 if not st.session_state.logged_in:
-    st.header("🔐 로그인")
-    user_id = st.text_input("아이디", value="user")
-    user_pw = st.text_input("비밀번호", type="password", value="1234")
-    
+    st.header("로그인")
+    user_id = st.text_input("아이디 (힌트: user)", value="user")
+    user_pw = st.text_input("비밀번호 (힌트: 1234)", type="password", value="1234")
+
     if st.button("로그인", use_container_width=True):
         if user_id == "user" and user_pw == "1234":
             st.session_state.logged_in = True
-            st.success("로그인 성공!")
+            st.success("로그인 성공")
             st.rerun()
         else:
             st.error("정보가 일치하지 않습니다.")
