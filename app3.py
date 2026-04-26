@@ -75,8 +75,7 @@ else:
     else:
         # 결과 표시 (축하 효과 활용)
         st.header('퀴즈가 모두 끝났습니다!')
-        st.balloons()
-        
+          
         final = st.sessiontest.score
         st.metric(label="최종 점수", value=f"{final}점", delta=f"{len(data)}문제 중")
         
