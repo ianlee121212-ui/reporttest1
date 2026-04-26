@@ -4,7 +4,7 @@ import json
 
 # [필수 1] 첫 화면: 학번 및 이름 표시
 st.set_page_config(page_title="중간고사 대체 과제", layout="centered")
-st.title("💡 이찬혁의 퀴즈 앱")
+st.title("이찬혁의 퀴즈 앱")
 st.info("학번: 2024404088 / 이름: 이찬혁")
 
 # [필수 2] 캐싱 기능 (1개 집중 적용: JSON 파일 읽기)
